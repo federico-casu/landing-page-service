@@ -10,6 +10,9 @@
     <!-- My style -->
      <link rel="stylesheet" href="style.css">
 
+    <!-- fontawesome -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css' integrity='sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==' crossorigin='anonymous'/>
+
 </head>
 <body>
     
@@ -23,14 +26,14 @@
                 - bottoni
         -->
         <div class="topbar text-center">
-            <p>Ottieni il tuo primo corso con uno sconto del 50%. L'offerta è valida solo per i primi 50 studenti. <a class="text-white" href="#">Registrati adesso</a></p>
+            <p class="mb-0">Ottieni il tuo primo corso con uno sconto del 50%. L'offerta è valida solo per i primi 50 studenti. <a class="text-white" href="#">Registrati adesso</a></p>
         </div>
-        <div class="navbar p-3 d-flex flex-wrap">
-            <figure class="w-50">
+        <div class="navbar px-3 py-0 d-flex flex-wrap">
+            <figure class="w-50 m-0">
                 <img src="./images/logo.png" alt="Logo CodeCircus">
             </figure>
             <nav class="navbar navbar-light w-50">
-                <div class="container-fluid">
+                <div class="container-fluid p-0">
                   <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLightNavbar" aria-controls="offcanvasLightNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -141,6 +144,29 @@
                 - input email
                 - bottone
         -->
+
+        <!-- 
+            - cta ricerca
+                - jumbotron (background)
+                - titolo
+                - sottotitolo
+                - searchbar
+                - 4 sezioni in position absolute rispetto alla prima sezione
+        -->
+
+        <section id="cta-search" class="">
+            <div class="px-3">
+                <h1>CODECIRCUS</h1>
+                <h2 class="fs-6">Immergiti nel divertimento del codice, dove ogni byte è una gioia!</h2>
+                <form class="d-flex bg-white p-1" role="search">
+                    <input class="form-control me-2 border-0" type="search" placeholder="cosa vuoi imparare oggi?" aria-label="Search">
+                    <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <figure class="mt-5">
+                    <img class="mw-100" src="./images/billboard-img.png" alt="Clown che segue il corso online">
+                </figure>
+            </div>
+        </section>
     </main>
 
     <footer>

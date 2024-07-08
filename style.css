@@ -1,7 +1,8 @@
+/* CSS RESET */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 div.topbar {
@@ -18,7 +19,18 @@ ul.icons > li {
     aspect-ratio: 1;
 }
 
-ul.icons > li svg {
-    
-    color: black;
+#cta-search {
+    background-image: url("./images/billboard-bg.png");
+    margin-top: 152px;
+}
+
+#cta-search button {
+    background-color: #4CC083;
+    color: white;
+    padding-inline: 1rem;
+    border-radius: 1rem;
+}
+
+#cta-search form {
+    border-radius: 1rem;
 }
