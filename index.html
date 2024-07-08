@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCircus</title>
+
+    <!-- CSS Bootstrap -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css' integrity='sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==' crossorigin='anonymous'/>
+    <!-- My style -->
+     <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header class="fixed-top">
+        <!-- 
+            - topbar
+                - link
+            - div principale
+                - logo
+                - nav
+                - bottoni
+        -->
+        <div class="topbar text-center">
+            <p>Ottieni il tuo primo corso con uno sconto del 50%. L'offerta è valida solo per i primi 50 studenti. <a class="text-white" href="#">Registrati adesso</a></p>
+        </div>
+        <div class="navbar p-3 d-flex flex-wrap">
+            <figure class="w-50">
+                <img src="./images/logo.png" alt="Logo CodeCircus">
+            </figure>
+            <nav class="navbar navbar-light w-50">
+                <div class="container-fluid">
+                  <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLightNavbar" aria-controls="offcanvasLightNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasLightNavbar" aria-labelledby="offcanvasLightNavbarLabel">
+                    <div class="offcanvas-header">
+                      <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Corsi
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-light">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Eventi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contatti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Registrati</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </nav>
+            <ul class="icons d-flex ps-0">
+                <li>x</li>
+                <li>x</li>
+                <li>x</li>
+                <li>x</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- 
+            9 sezioni:
+            - cta ricerca
+                - jumbotron (background)
+                - titolo
+                - sottotitolo
+                - searchbar
+                - 4 sezioni in position absolute rispetto alla prima sezione
+            - sezione chi siamo (2 sezioni)
+                - immagine
+                - sezione info
+                    - sottotitolo
+                    - titolo
+                    - paragrafo
+                    - lista
+                    - bottone
+            - sezione categorie popolari
+                - sottotitolo
+                - titolo
+                - bottone
+                - 9 categorie
+            - sezione esplora corsi online
+                - sottotitolo
+                - titolo
+                - 8 cards (ogni card):
+                    - immagine
+                    - categoria
+                    - durata
+                    - titolo
+                    - autore
+                - bottone
+            - sezione recensioni
+                - sottotitolo
+                - titolo
+                - 3 cards (ogni card):
+                    - paragrafo
+                    - immagine
+                    - info
+            - sezione insegnanti
+                - sottotitolo
+                - titolo
+                - 5 cards (ogni card):
+                    - immagine
+                    - nome
+                    - ruolo
+            - sezione i nostri corsi piacciono perchè
+                - sottotitolo
+                - titolo
+                - 2 liste (o una singola con wrap)
+            - sezione step
+                - 3 div (ogni div):
+                    - titolo
+                    - paragrafo
+                    - bottone
+                - linea centrale con icone
+            - cta iscrizione con sconto
+                - titolo
+                - sottotitolo
+                - input email
+                - bottone
+        -->
+    </main>
+
+    <footer>
+        <!-- 
+            2 sezioni:
+            - div principale
+                - logo
+                - socials
+                - liste di links
+            - div secondario
+                - copyrigth
+                - citazione
+        -->
+    </footer>
+
+    <!-- Js Bootstrap -->
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js' integrity='sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==' crossorigin='anonymous'></script>
+     <!-- My Js -->
+    <script src="main.js"></script>
+</body>
+</html>

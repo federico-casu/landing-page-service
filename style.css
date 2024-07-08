@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.topbar {
+    background-color: #EC6C5B;
+    color: white;
+}
+
+ul.icons {
+    list-style: none;
+}
+
+ul.icons > li {
+    width: 2rem;
+    aspect-ratio: 1;
+}
+
+ul.icons > li svg {
+    
+    color: black;
+}
