@@ -5,6 +5,25 @@
     box-sizing: border-box;
 }
 
+html {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.inter-600 {
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 div.topbar {
     background-color: #EC6C5B;
     color: white;
@@ -33,4 +52,100 @@ ul.icons > li {
 
 #cta-search form {
     border-radius: 1rem;
+}
+
+#stats h3 {
+    color: #EC6C5B;
+    font-weight: 800;
+}
+
+#stats h4 {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#stats > div {
+    box-shadow: 6px 12px 25px -5px rgba(0,0,0,0.3);
+}
+
+#who-we-are img {
+    border-radius: 50%;
+}
+
+.subtitle {
+    color: #EC6C5B;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+#who-we-are .info i {
+    background-color: #EC6C5B;
+    color: white;
+    align-self: flex-start;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.green-btn {
+    background-color: #4CC083;
+    color: white;
+    border-radius: 1.8rem;
+    padding: 0.8rem 2.5rem;
+    margin: 1rem 0;
+}
+
+#categories .section-body .category {
+    height: 6rem;
+    /* border: 1px solid black; */
+    border-radius: 0.5rem;
+}
+
+#categories .section-body .category svg,
+#categories .section-body .category svg use {
+    width: 4rem;
+    aspect-ratio: 1;
+}
+
+.category-green {
+    background-color: #E2F3F0;
+    color: #4CC083;
+}
+
+.category-grey {
+    background-color: #e1e1ec;
+    color: #6d737e;
+}
+
+.category-yellow {
+    background-color: #fcebd0;
+    color: #f7bd5f;
+}
+
+.category-red {
+    background-color: #fde5e6;
+    color: #EC6C5B;
+}
+
+#courses .section-body .card span.label {
+    background-color: #EC6C5B;
+    color: white;
+    font-size: 0.7rem;
+    top: 1rem;
+    left: 1rem;
+}
+
+#courses .section-body .card .card-body svg,
+#courses .section-body .card .card-body svg use {
+    max-height: 1rem;
+    aspect-ratio: 1;
+}
+
+#courses .section-body .card .card-body > div {
+    font-size: 0.8rem;
+}
+
+span .fa-star {
+    color: #4CC083;
 }
