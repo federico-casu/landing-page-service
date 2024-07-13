@@ -67,6 +67,10 @@ ul.icons > li svg{
     border-radius: 1rem;
 }
 
+#stats {
+    background-color: white;
+}
+
 #stats h3 {
     color: #EC6C5B;
     font-weight: 800;
@@ -163,21 +167,34 @@ span .fa-star {
     color: #4CC083;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     ul.icons {
         justify-content: end;
     }
 
     div.topbar { 
-        height: 3vh;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     div.navbar {
         padding-top: 2rem;
-        height: 7vh;
+        height: 6vh;
     }
 
     #cta-search {
         margin-top: 10vh;
+        position: relative;
+    }
+
+    #stats {
+        background-color: transparent;
+        position: absolute;
+        top: 92%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
     }
 }

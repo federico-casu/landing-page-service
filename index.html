@@ -107,13 +107,13 @@
                 - bottoni
         -->
         <div class="topbar text-center text">
-            <p class="mb-0">Ottieni il tuo primo corso con uno sconto del 50%. L'offerta è valida solo per i primi 50 studenti. <a class="text-white" href="#">Registrati adesso</a></p>
+            <p class="mb-0 p-1 p-lg-2">Ottieni il tuo primo corso con uno sconto del 50%. L'offerta è valida solo per i primi 50 studenti. <a class="text-white" href="#">Registrati adesso</a></p>
         </div>
         <div class="navbar px-3 py-0 d-flex flex-wrap align-items-center bg-white">
-            <figure class="col-sm-6 m-0 col-md-3">
+            <figure class="col-sm-6 m-0 col-lg-3">
                 <img src="./images/logo.png" alt="Logo CodeCircus">
             </figure>
-            <nav id="desktop-nav" class="col-md-6 d-none d-md-block">
+            <nav id="desktop-nav" class="col-lg-6 d-none d-lg-block">
                 <ul class="d-flex justify-content-center gap-2 inter-600">
                     <li><a href="#">HOME</a></li>
                     <li class="dropdown">
@@ -134,7 +134,7 @@
                     <li><a href="#">REGISTRATI</a></li>
                 </ul>
             </nav>
-            <nav class="navbar d-md-none navbar-light col-sm-6">
+            <nav class="navbar d-lg-none navbar-light col-sm-6">
                 <div class="container-fluid p-0">
                   <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLightNavbar" aria-controls="offcanvasLightNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -175,7 +175,7 @@
                   </div>
                 </div>
             </nav>
-            <ul class="icons d-flex ps-0 pb-sm-3 pb-md-0 d-flex gap-2 col-12 col-md-3">
+            <ul class="icons d-flex ps-0 pb-sm-3 pb-lg-0 d-flex gap-2 col-12 col-lg-3">
                 <li><svg><use href="#user-circle"/></svg></li>
                 <li><svg><use href="#heart"/></svg></li>
                 <li><svg><use href="#shopping-bag"/></svg></li>
@@ -226,31 +226,33 @@
                 - 4 sezioni in position absolute rispetto alla prima sezione
         -->
         <section id="cta-search" class="mb-5">
-            <div class="px-3">
-                <h1>CODECIRCUS</h1>
-                <h2 class="fs-6">Immergiti nel divertimento del codice, dove ogni byte è una gioia!</h2>
-                <form class="d-flex bg-white p-1" role="search">
-                    <input class="form-control me-2 border-0" type="search" placeholder="cosa vuoi imparare oggi?" aria-label="Search">
-                    <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
+            <div class="px-3 d-lg-flex justify-content-center align-items-center gap-4">
+                <div class="d-flex flex-column gap-2">
+                    <h1>CODECIRCUS</h1>
+                    <h2 class="fs-6">Immergiti nel divertimento del codice, dove ogni byte è una gioia!</h2>
+                    <form class="d-flex bg-white p-1" role="search">
+                        <input class="form-control me-2 border-0" type="search" placeholder="cosa vuoi imparare oggi?" aria-label="Search">
+                        <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
                 <figure class="mt-5">
-                    <img class="mw-100" src="./images/billboard-img.png" alt="Clown che segue il corso online">
+                    <img class="img-fluid w-100" src="./images/billboard-img.png" alt="Clown che segue il corso online">
                 </figure>
             </div>
-            <div id="stats" class="px-3 bg-white d-flex flex-column gap-4">
-                <div class="border rounded-4 text-center py-3 mt-5">
+            <div id="stats" class="px-3 d-flex flex-column gap-4 flex-lg-row justify-content-center">
+                <div class="border bg-white rounded-4 text-center py-3 mt-5 mt-lg-0 px-lg-3">
                     <h3 class="">100+</h3>
                     <h4>MAGHI DEL CODICE</h4>
                 </div>
-                <div class="border rounded-4 text-center py-3">
+                <div class="border bg-white rounded-4 text-center py-3 px-lg-3">
                     <h3 class="">500+</h3>
                     <h4>CORSI STRAVAGANTI</h4>
                 </div>
-                <div class="border rounded-4 text-center py-3">
+                <div class="border bg-white rounded-4 text-center py-3 px-lg-3">
                     <h3 class="">GRATIS</h3>
                     <h4>UNA PACCA SULLA SPALLA</h4>
                 </div>
-                <div class="border rounded-4 text-center py-3 mb-5">
+                <div class="border bg-white rounded-4 text-center py-3 mb-5 mb-lg-0 px-lg-3">
                     <h3 class="">2,000+</h3>
                     <h4>PERSONE CI SONO CASCATE</h4>
                 </div>
@@ -267,11 +269,11 @@
                     - lista
                     - bottone
         -->
-        <section id="who-we-are" class="px-3 mb-5">
-            <figure class="">
+        <section id="who-we-are" class="px-3 pt-lg-5 mb-5 d-lg-flex">
+            <figure class="col-lg-6 d-flex align-items-center justify-content-center">
                 <img class="img-fluid" src="./images/about-img.jpg" alt="Clown che ha frequentato il corso">
             </figure>
-            <div class="info">
+            <div class="info col-lg-5 d-lg-flex flex-lg-column justify-content-center pe-lg-5">
                 <span class="subtitle">Scopri di più su di noi</span>
                 <h5 class="title inter-600">Chi Siamo</h5>
                 <p>Benvenuti nel nostro magico mondo dove la programmazione incontra il divertimento sfrenato! Offriamo corsi unici e stravaganti, guidati da istruttori eccentrici che trasformano ogni lezione in un'avventura indimenticabile. Unisciti a noi per scoprire il lato più fantasioso del coding!</p>
@@ -310,7 +312,7 @@
             </div>
             <div class="section-body">
                 <div class="row row-gap-4">
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-lg-4">
                         <div class="category d-flex align-items-center gap-4 px-3 category-green">
                             <svg><use href="#pencil-box"/></svg>
                             <div class="d-flex flex-column">
@@ -319,7 +321,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 order-md-1">
+                    <div class="col-sm-12 col-lg-4 order-lg-1">
                         <div class="category d-flex align-items-center gap-4 px-3 category-yellow">
                             <svg><use href="#speakerphone"/></svg>
                             <div class="d-flex flex-column">
@@ -328,7 +330,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 order-md-2">
+                    <div class="col-sm-12 col-lg-4 order-lg-2">
                         <div class="category d-flex align-items-center gap-4 px-3 category-red">
                             <svg><use href="#handshake"/></svg>
                             <div class="d-flex flex-column">
@@ -337,7 +339,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-lg-4">
                         <div class="category d-flex align-items-center gap-4 px-3 category-grey">
                             <svg><use href="#camera"/></svg>
                             <div class="d-flex flex-column">
@@ -346,7 +348,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 order-md-1">
+                    <div class="col-sm-12 col-lg-4 order-lg-1">
                         <div class="category d-flex align-items-center gap-4 px-3 category-red">
                             <svg><use href="#laptop"/></svg>
                             <div class="d-flex flex-column">
@@ -355,7 +357,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 order-md-2">
+                    <div class="col-sm-12 col-lg-4 order-lg-2">
                         <div class="category d-flex align-items-center gap-4 px-3 category-yellow">
                             <svg><use href="#fitness"/></svg>
                             <div class="d-flex flex-column">
@@ -364,7 +366,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-lg-4">
                         <div class="category d-flex align-items-center gap-4 px-3 category-yellow">
                             <svg><use href="#speakerphone"/></svg>
                             <div class="d-flex flex-column">
@@ -373,7 +375,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 order-md-1">
+                    <div class="col-sm-12 col-lg-4 order-lg-1">
                         <div class="category d-flex align-items-center gap-4 px-3 category-green">
                             <svg><use href="#pencil-box"/></svg>
                             <div class="d-flex flex-column">
@@ -382,7 +384,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 order-md-2">
+                    <div class="col-sm-12 col-lg-4 order-lg-2">
                         <div class="category d-flex align-items-center gap-4 px-3 category-grey">
                             <svg><use href="#pencil-box"/></svg>
                             <div class="d-flex flex-column">
@@ -416,7 +418,7 @@
             </div>
             <div class="section-body">
                 <div class="row row-gap-4">
-                    <div class="col-sm-12 col-md-3">
+                    <div class="col-sm-12 col-lg-3">
                         <div class="card">
                             <figure class="p-2 positoin-relative">
                                 <img class="card-img-top" src="./images/item1.jpg" alt="Title" />
@@ -432,7 +434,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3">
+                    <div class="col-sm-12 col-lg-3">
                         <div class="card">
                             <figure class="p-2 positoin-relative">
                                 <img class="card-img-top" src="./images/item2.jpg" alt="Title" />
@@ -448,7 +450,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3">
+                    <div class="col-sm-12 col-lg-3">
                         <div class="card">
                             <figure class="p-2 positoin-relative">
                                 <img class="card-img-top" src="./images/item3.jpg" alt="Title" />
@@ -464,7 +466,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3">
+                    <div class="col-sm-12 col-lg-3">
                         <div class="card">
                             <figure class="p-2 positoin-relative">
                                 <img class="card-img-top" src="./images/item4.jpg" alt="Title" />
@@ -480,7 +482,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3">
+                    <div class="col-sm-12 col-lg-3">
                         <div class="card">
                             <figure class="p-2 positoin-relative">
                                 <img class="card-img-top" src="./images/item5.jpg" alt="Title" />
@@ -496,7 +498,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3">
+                    <div class="col-sm-12 col-lg-3">
                         <div class="card">
                             <figure class="p-2 positoin-relative">
                                 <img class="card-img-top" src="./images/item6.jpg" alt="Title" />
@@ -512,7 +514,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3">
+                    <div class="col-sm-12 col-lg-3">
                         <div class="card">
                             <figure class="p-2 positoin-relative">
                                 <img class="card-img-top" src="./images/item7.jpg" alt="Title" />
@@ -528,7 +530,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3">
+                    <div class="col-sm-12 col-lg-3">
                         <div class="card">
                             <figure class="p-2 positoin-relative">
                                 <img class="card-img-top" src="./images/item8.jpg" alt="Title" />
