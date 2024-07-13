@@ -186,13 +186,6 @@
 
     <main>
         <!-- 
-            - sezione recensioni
-                - sottotitolo
-                - titolo
-                - 3 cards (ogni card):
-                    - paragrafo
-                    - immagine
-                    - info
             - sezione insegnanti
                 - sottotitolo
                 - titolo
@@ -553,7 +546,62 @@
             </div>
         </section>
 
-
+        <!-- 
+            - sezione recensioni
+                - sottotitolo
+                - titolo
+                - 3 cards (ogni card):
+                    - paragrafo
+                    - immagine
+                    - info
+        -->
+        <section id="reviews" class="px-3 py-5 mb-5">
+            <div class="section-header">
+                <div class="titles text-center mb-4">
+                    <span class="subtitle">Cosa dicono gli studenti</span>
+                    <h5 class="title inter-600">Recensioni</h5>
+                </div>
+            </div>
+            <div class="section-body">
+                <div class="d-flex gap-lg-2">
+                    <div class="review col-lg-4 px-lg-2">
+                        <p>"CodeCircus è come un parco divertimenti per nerd! Ho imparato a programmare con emoji e ora posso comunicare con i miei amici solo usando faccine. È stato fantastico!"</p>
+                        <div class="d-flex gap-5">
+                            <img class="img-fluid" src="./images/reviwer1.jpg" alt="Fotografia della studentessa Gina Smith">
+                            <div class="d-flex flex-column">
+                                <span class="inter-600 fs-2">Gina Smith</span>
+                                <span class="fs-4">Studentessa</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review d-none d-lg-block col-lg-4 px-lg-2">
+                        <p>"Non avrei mai pensato di ridere così tanto durante un corso di programmazione. I trucchi di Code Circus Tricks mi hanno fatto sembrare un mago del codice davanti ai miei colleghi!"</p>
+                        <div class="d-flex gap-5">
+                            <img class="img-fluid" src="./images/reviwer2.jpg" alt="Fotografia del pescivendolo Bicky Silvestri">
+                            <div class="d-flex flex-column">
+                                <span class="inter-600 fs-2">Bicky Silvestri</span>
+                                <span class="fs-4">Pescivendolo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review d-none d-lg-block col-lg-4 px-lg-2">
+                        <p>"Ho sempre voluto imparare a creare videogiochi retrò. Retro Game Dev mi ha riportato agli anni '80 e '90, con tanto di musica 8-bit e grafica pixelata. Un vero tuffo nel passato!"</p>
+                        <div class="d-flex gap-5">
+                            <img class="img-fluid" src="./images/reviwer3.jpg" alt="Fotografia della studentessa Gina Smith">
+                            <div class="d-flex flex-column">
+                                <span class="inter-600 fs-2">Lilly Rossi</span>
+                                <span class="fs-4">Web Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="slider-buttons" class="d-flex d-lg-none gap-2 mt-4 justify-content-center">
+                    <div class="slider-button-active"></div>
+                    <div class="slider-button-inactive"></div>
+                    <div class="slider-button-inactive"></div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
