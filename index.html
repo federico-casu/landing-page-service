@@ -106,14 +106,35 @@
                 - nav
                 - bottoni
         -->
-        <div class="topbar text-center">
+        <div class="topbar text-center text">
             <p class="mb-0">Ottieni il tuo primo corso con uno sconto del 50%. L'offerta è valida solo per i primi 50 studenti. <a class="text-white" href="#">Registrati adesso</a></p>
         </div>
-        <div class="navbar px-3 py-0 d-flex flex-wrap bg-white">
-            <figure class="w-50 m-0">
+        <div class="navbar px-3 py-0 d-flex flex-wrap align-items-center bg-white">
+            <figure class="col-sm-6 m-0 col-md-3">
                 <img src="./images/logo.png" alt="Logo CodeCircus">
             </figure>
-            <nav class="navbar navbar-light w-50">
+            <nav id="desktop-nav" class="col-md-6 d-none d-md-block">
+                <ul class="d-flex justify-content-center gap-2 inter-600">
+                    <li><a href="#">HOME</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          CORSI
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">EVENTI</a></li>
+                    <li><a href="#">CONTATTI</a></li>
+                    <li><a href="#">REGISTRATI</a></li>
+                </ul>
+            </nav>
+            <nav class="navbar d-md-none navbar-light col-sm-6">
                 <div class="container-fluid p-0">
                   <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLightNavbar" aria-controls="offcanvasLightNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -154,11 +175,11 @@
                   </div>
                 </div>
             </nav>
-            <ul class="icons d-flex ps-0">
-                <li>x</li>
-                <li>x</li>
-                <li>x</li>
-                <li>x</li>
+            <ul class="icons d-flex ps-0 pb-sm-3 pb-md-0 d-flex gap-2 col-12 col-md-3">
+                <li><svg><use href="#user-circle"/></svg></li>
+                <li><svg><use href="#heart"/></svg></li>
+                <li><svg><use href="#shopping-bag"/></svg></li>
+                <li><svg><use href="#search"/></svg></li>
             </ul>
         </div>
     </header>

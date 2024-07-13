@@ -29,18 +29,31 @@ div.topbar {
     color: white;
 }
 
+nav#desktop-nav a {
+    color: black;
+}
+
+nav#desktop-nav a:hover {
+    color: #4CC083;
+}
+
+nav#desktop-nav li:not(:last-child) > a {
+    text-decoration: none;
+}
+
 ul.icons {
     list-style: none;
 }
 
-ul.icons > li {
-    width: 2rem;
+ul.icons > li svg{
+    width: 1.5rem;
     aspect-ratio: 1;
 }
 
 #cta-search {
     background-image: url("./images/billboard-bg.png");
-    margin-top: 152px;
+    margin-top: 169.79px;
+    padding-top: 1rem;
 }
 
 #cta-search button {
@@ -148,4 +161,23 @@ ul.icons > li {
 
 span .fa-star {
     color: #4CC083;
+}
+
+@media screen and (min-width: 768px) {
+    ul.icons {
+        justify-content: end;
+    }
+
+    div.topbar { 
+        height: 3vh;
+    }
+
+    div.navbar {
+        padding-top: 2rem;
+        height: 7vh;
+    }
+
+    #cta-search {
+        margin-top: 10vh;
+    }
 }
