@@ -115,7 +115,8 @@ ul.icons > li svg{
     border-radius: 50%;
 }
 
-#who-we-are .info i {
+#who-we-are .info i,
+.check-li-icon {
     background-color: #EC6C5B;
     color: white;
     align-self: flex-start;
@@ -188,7 +189,7 @@ span .fa-star {
 
 div.review img {
     border-radius: 50%;
-    max-width: 100%;
+    width: 5rem;
     aspect-ratio: 1;
 }
 
@@ -279,6 +280,12 @@ div.review img {
         width: 100%;
     }
 
+    div.review img {
+        border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
+    }
+
     #teachers .section-body > div > div {
         width: calc(100% / 5 - (2rem / 5));
     }
@@ -295,4 +302,4 @@ div.review img {
     #teachers .section-body > div > div:last-child > .teacher {
         margin: 0;
     }
-}
+} 
