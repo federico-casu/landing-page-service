@@ -206,12 +206,48 @@ div.review img {
     background-color: rgba(109, 115, 126, 0.5);
 }
 
+/* NOTE teachers section style */
+
+#teachers .section-body > div {
+    gap: 0.5rem;
+}
+
+#teachers .section-body > div > div:not(:last-child) {
+    max-width: calc(100% / 4 - (1.5rem / 4));
+}
+
+#teachers .section-body > div > div:last-child {
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+#teachers .section-body > div > div:not(:last-child) > .teacher {
+    padding: 0.5rem;
+    border-radius: 12px;
+    /* border: 1px solid red; */
+    box-shadow: 6px 12px 25px -5px rgba(0,0,0,0.3);
+    height: 100%;
+    font-size: 1rem;
+}
+
+#teachers .section-body > div > div:not(:last-child) > .teacher h5.title {
+    font-size: 1rem;
+}
+
+#teachers .section-body > div > div:last-child > .teacher {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 18px;
+    box-shadow: 6px 12px 25px -5px rgba(0,0,0,0.3);
+}
 
 
 
 /* ANCHOR mediaqueries */
 
 @media screen and (min-width: 992px) {
+    /* ANCHOR 992px header style */
+
     ul.icons {
         justify-content: end;
     }
@@ -228,6 +264,7 @@ div.review img {
         height: 6vh;
     }
 
+    /* ANCHOR 992px main style */
     #cta-search {
         margin-top: 10vh;
         position: relative;
@@ -240,5 +277,22 @@ div.review img {
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
+    }
+
+    #teachers .section-body > div > div {
+        width: calc(100% / 5 - (2rem / 5));
+    }
+
+    #teachers .section-body > div > div:not(:last-child) > .teacher {
+        padding: 1rem;
+    }
+
+    #teachers >  div.section-body > div > div > div.teacher > div.titles,
+    #teachers >  div.section-body > div > div > div.teacher > div.titles > h5.title {
+        font-size: 1.5rem;
+    }
+
+    #teachers .section-body > div > div:last-child > .teacher {
+        margin: 0;
     }
 }
