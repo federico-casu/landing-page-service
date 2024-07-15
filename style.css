@@ -242,6 +242,70 @@ div.review img {
     box-shadow: 6px 12px 25px -5px rgba(0,0,0,0.3);
 }
 
+/* #box {
+    height: 200px;
+    background-color: green;
+    transform: scaleX(-1);
+}
+
+#box-1 {
+    height: 30px;
+    aspect-ratio: 1;
+    background-color: green;
+    top: 30%;
+    transform: translateY(-50%);
+    transform: rotate(45deg);
+    left: -0.5rem;
+} */
+
+.step {
+    min-height: 310px;
+}
+
+.step-icon {
+    background-color: #EC6C5B;
+    width: 4rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+}
+
+.step-icon-2 {
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.step-icon svg {
+    width: 2rem;
+    aspect-ratio: 1;
+}
+
+.step-icons-bar {
+    height: 250px;
+    width: 7px;
+    background-color: #ec6c5b;
+    top: 100%;
+    /* border: 1px solid #EC6C5B; */
+    /* transform: rotate(90deg); */
+}
+
+.step-header {
+    color: white;
+    background-color: #EC6C5B;
+    font-weight: 200;
+    padding-block: 0.5rem;
+}
+
+#corner {
+    width: 1rem;
+    aspect-ratio: 1;
+    background-color: #EC6C5B;
+    position: absolute;
+    top: 25%;
+    left: -0.25rem;
+    transform: rotate(45deg);
+    /* border: 1px solid black; */
+}
 
 
 /* ANCHOR mediaqueries */
